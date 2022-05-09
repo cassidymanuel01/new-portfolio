@@ -18,6 +18,12 @@
       overflow-x: hidden;
 }
 
+#navbarrNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   #navbarr h1 {
     font-family: "Satisfy", cursive;
     font-size: 4em;
