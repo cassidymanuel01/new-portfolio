@@ -1,0 +1,202 @@
+ /* navbar */
+
+#navbarr{
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),;
+      background-color: lightcoral;
+      color: antiquewhite;
+}
+
+.dropbtn {
+    border-radius: 20px;
+    background-color:antiquewhite;
+    color: antiquewhite;
+    padding: 13px;
+    font-size: 15px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-content {
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    right: 50%;
+    background-color: lightcoral;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    z-index: 1;
+    margin-right: 10%;
+}
+
+.dropdown-content a {
+    color: antiquewhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightcoral;
+    color: antiquewhite;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    height: 100px;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+.dropdown:hover .dropbtn {background-color: lightcoral}
+
+ /* landing */
+
+#landing {
+    color: lightcoral;
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),
+      /* bottom, image */ 
+    url(../images/clouds.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  /* about */
+
+  #about {
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),
+      /* bottom, image */ 
+    url(../images/clouds2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: lightcoral
+  }
+
+  .imgme{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: center;
+    overflow-x: hidden;
+  }
+
+  /* work and education */
+
+  #workandeducation {
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),
+      /* bottom, image */ 
+    url(../images/clouds4.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    color: lightcoral
+  }
+
+  #cleaning{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: center;
+    overflow-x: hidden;
+  }
+
+  #oldagehome{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: center;
+    overflow-x: hidden;
+  }
+
+  /* skills */
+
+  #skills {
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),
+      /* bottom, image */ 
+    url(../images/clouds5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: lightcoral
+  }
+
+  /* projects */
+
+  #projects {
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),
+      /* bottom, image */ 
+    url(../images/clouds5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: lightcoral
+  }
+
+  /* testimonials */
+
+  #testimonials {
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),
+      /* bottom, image */ 
+    url(../images/clouds6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: lightcoral
+  }
+
+  /* contact */
+
+  #contact {
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),
+      /* bottom, image */ 
+    url(../images/golden\ hour.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: lightcoral
+  }
+
+  /* footer */
+
+  #footer{
+    background: 
+      /* top, transparent red, faked with gradient */ linear-gradient(
+        rgba(250, 178, 178, 0.45),
+        rgba(244, 217, 70, 0.45)
+      ),;
+      background-color: lightcoral;
+      color: antiquewhite;
+}
