@@ -13,7 +13,6 @@
 }
 
 .navbar-expand-sm .navbar-nav>.open>a,
-.navbar-expand-sm .navbar-nav>.active>a,
 .navbar-expand-sm .navbar-nav>.open>a,
 .navbar-expand-sm .navbar-nav>.open>a:hover,
 .navbar-expand-sm .navbar-nav>.open>a,
@@ -103,8 +102,11 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    position: center;
     overflow-x: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     box-shadow: -2vw 15px 8px pink;
   }
 
@@ -183,6 +185,14 @@
     color: black;
   }
 
+  #skills-container{
+    border-color: lightcoral ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
   .progress-bar {
       background-color: lightcoral;
   }
@@ -201,7 +211,7 @@
 
   #projects h1 {
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 3em;
     color: lightcoral;
   }
 

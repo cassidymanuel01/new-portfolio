@@ -12,7 +12,7 @@
 </head>
 <body>
 <!-- navbar -->
-<section id="navbarr">
+<section id="navbarr" class="sticky-top">
     <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container" style="background: transparent;">
           <a class="navbar-brand text-light display-4 fw-bold " href="#"></a>
@@ -64,7 +64,7 @@
     <!-- about me -->
     <section id="about">
     <div class="container">
-        <div class="row text-start">
+        <div class="row">
             <div class="col-md-6" data-aos="zoom-in-right">
                     <img class="imgme" src="./images/Cassidy (1).jpg3.jpg" class="rounded" alt="me" >
             </div>
@@ -92,16 +92,17 @@
 </section>
 <!-- work and education -->
     <section id="workandeducation">
-    <div class="container" style="background: transparent;">
-        <div class="row text-start d-flex justify-content-between">
-            <div class="card col-md-6 pt-3 pb-3" data-aos="fade-right">
-                <h1 class="display-5"> Education</h1>
+    <div class="container">
+        <div class="row d-flex justify-content-evenly">
+            <h1 class="display-5 d-flex justify-content-center pt-4 mt-2"> Education</h1>
+            <div class="card col-md-5 ps-2 pt-3 pb-3" data-aos="fade-right">
+                
                 <p class="lead fw-bold">• I attended Mondale High School between the years of 2016 - 2021.</p>
                 <p class="lead fw-bold">• My subjects were Pure Maths, Life Science, Accounting, History, English, Afrikaans and Life Orientation.</p>
                 <img id="school" src="./images/school.jpg" alt="school">
             </div>
-            <div class=" card col-md-5 pt-3 pb-3" data-aos="fade-right">
-                <h1 class="display-5"> Work Experince</h1>
+            <h1 class="display-5 d-flex justify-content-center pt-4 mt-2 pb-2"> Work Experince</h1>
+            <div class=" card col-md-5 ms-3 ps-2 pt-3 pb-3" data-aos="fade-right">
                 <p class="lead fw-bold">• I have done voluntary work at Old Age Homes based in Cape Town, participated in environmental clean ups and I am regularly involved in activities at my church.</p>
                 <img id="oldagehome" src="./images/oldagehome.webp" alt="old age home">
             </div>
@@ -110,10 +111,10 @@
 </section>
 <!-- skills -->
 <section id="skills">
-    <div class="container text-start border-2 border-light pb-5 pt-4 ps-4 pe-4">
-        <div class="row text-start border-2 border-light">
+    <div class="container text-start pb-5 pt-4 ps-4 pe-4">
+        <div class="row text-start border-2">
             <h1 class="text-center pe-4 display-4 pb-3 pt-3">Technical Skills</h1>
-            <div class="col-md-4 pb-4"data-aos="zoom-in">
+            <div class="col-md-4 pb-4 border-2"data-aos="zoom-in"id="skills-container">
                 <h2 class="display-6">HTML</h2>
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
@@ -190,7 +191,6 @@
     </div>
 </section>
 <!-- Modal -->
-
 <div class="modal fade"
 id="exampleModal"
  tabindex="-1"
@@ -200,9 +200,11 @@ aria-hidden="true">
     <div class="modal-dialog mw-100 p-5">
       <div class="modal-content">
         <div class="modal-header">
+            <div class="container">
+          <button type="button" class="btn-close d-flex justify-content-end" data-bs-dismiss="modal" aria-label="Close"></button>
           <h1 class="modal-title" id="exampleModalLabel">Rainbow</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+    </div>
         <div class="modal-body">
           <div class="container">
               <div class="row">
