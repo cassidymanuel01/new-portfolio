@@ -5,6 +5,23 @@
 
 
  /* navbar */
+/* hover nav */
+.navbar-expand-sm .navbar-nav>li>a:hover,
+.navbar-expand-sm .navbar-nav>.active>a:hover,
+.navbar-expand-sm .navbar-nav>li>a:focus {
+  background-color: lightcoral;
+}
+
+.navbar-expand-sm .navbar-nav>.open>a,
+.navbar-expand-sm .navbar-nav>.active>a,
+.navbar-expand-sm .navbar-nav>.open>a,
+.navbar-expand-sm .navbar-nav>.open>a:hover,
+.navbar-expand-sm .navbar-nav>.open>a,
+.navbar-expand-sm .navbar-nav>.open>a:hover,
+.navbar-expand-sm .navbar-nav>.open>a:focus {
+  background-color: lightcoral;
+}
+/* end of hover */
 
 #navbarr{
     color: lightcoral;
@@ -14,7 +31,7 @@
         rgba(250, 178, 178, 0.45),
         rgba(244, 217, 70, 0.45)
       ),      /* bottom, image */ 
-      url(../images/clouds3.png);
+      url(../images/clouds12.gif);
       background-size: cover;
       background-attachment: fixed;
       overflow-x: hidden;
@@ -31,6 +48,8 @@
     font-size: 4em;
   }
 
+  
+
  /* landing */
 
  #landing h1 {
@@ -41,14 +60,14 @@
   }
 
 #landing {
-    color: lightcoral;
+    color:antiquewhite;
     background: 
       /* top, transparent red, faked with gradient */ linear-gradient(
         rgba(250, 178, 178, 0.45),
         rgba(244, 217, 70, 0.45)
       ),
       /* bottom, image */ 
-    url(../images/clouds3.png);
+    url(../images/clouds12.gif);
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
@@ -58,6 +77,8 @@
 
   #about {
     color: lightcoral;
+    margin-top: 50px;
+    margin-bottom: 50px;
     background: 
       /* top, transparent red, faked with gradient */ linear-gradient(
         rgba(250, 178, 178, 0.45),
@@ -84,6 +105,7 @@
     object-fit: cover;
     position: center;
     overflow-x: hidden;
+    box-shadow: -2vw 15px 8px pink;
   }
 
   /* work and education */
@@ -124,10 +146,18 @@
   }
 
   .card{
+      display: flex;
+      justify-content: center;
       border-color: lightcoral ;
+      border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
       border-top-right-radius: 20px;
-      border-left-color: white;
+      border-top-left-radius: 20px;
+      box-shadow: -2vw 15px 8px pink;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      margin: 0;
+      padding: 0;
   }
 
   /* skills */
@@ -148,9 +178,9 @@
   }
 
   #skills h2 {
-    font-family: "Satisfy", cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 2em;
-    color: lightcoral;
+    color: black;
   }
 
   .progress-bar {
@@ -160,6 +190,7 @@
   /* projects */
 
   #projects {
+      margin-bottom: 50px;
     background: 
       /* top, transparent red, faked with gradient */ linear-gradient(
         rgba(250, 178, 178, 0.45),
@@ -172,6 +203,18 @@
     font-family: "Satisfy", cursive;
     font-size: 4em;
     color: lightcoral;
+  }
+
+  #exampleModalLabel{
+    font-family: "Satisfy", cursive;
+    font-size: 4em;
+    color: lightcoral;
+  }
+
+  .para{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    color: black;
   }
 
   .project-container{
