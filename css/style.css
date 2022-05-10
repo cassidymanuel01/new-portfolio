@@ -1,5 +1,7 @@
  
  @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;1,200&display=swap');
 
 
  /* navbar */
@@ -71,9 +73,9 @@
   }
 
   #about p {
-    font-family: "Satisfy", cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 1.5em;
-      color: lightcoral;
+      color: black;
   }
 
   .imgme{
@@ -102,9 +104,9 @@
   }
 
   #workandeducation p {
-    font-family: "Satisfy", cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 1.5em;
-    color: lightcoral;
+    color: black;
 }
 
   #school{
@@ -121,10 +123,17 @@
     overflow-x: hidden;
   }
 
+  .card{
+      border-color: lightcoral ;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+      border-left-color: white;
+  }
+
   /* skills */
 
   #skills {
-    background: 
+    background:
       /* top, transparent red, faked with gradient */ linear-gradient(
         rgba(250, 178, 178, 0.45),
         rgba(244, 217, 70, 0.45)
