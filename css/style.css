@@ -88,7 +88,7 @@
   }
   #about h1 {
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 3em;
     color: lightcoral;
   }
 
@@ -123,7 +123,7 @@
 
   #workandeducation h1 {
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 3em;
     color: lightcoral;
   }
 
@@ -133,19 +133,6 @@
     color: black;
 }
 
-  #school{
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-    overflow-x: hidden;
-  }
-
-  #oldagehome{
-    height: 50%;
-    width: 50%;
-    object-fit: cover;
-    overflow-x: hidden;
-  }
 
   .card{
       display: flex;
@@ -175,7 +162,7 @@
 
   #skills h1 {
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 3em;
     color: lightcoral;
   }
 
@@ -217,7 +204,7 @@
 
   #exampleModalLabel{
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 2em;
     color: lightcoral;
   }
 
