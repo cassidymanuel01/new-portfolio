@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -43,7 +44,7 @@
                 <a class="nav-link text-white fw-bold" aria-current="page"  href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white fw-bold" aria-current="page" href="#testimonial">Testimonials</a>
+                <a class="nav-link text-white fw-bold" aria-current="page" href="#testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white fw-bold" aria-current="page" href="#contact">Contact</a>
@@ -62,25 +63,26 @@
     </div>
     </section>
     <!-- about me -->
-    <section id="about">
-    <div class="container">
+    <section id="about" class="vh-150">
+    <div class="container pt-5 mt-3 d-flex justify-content-center align-items-center flex-column h-100">
         <div class="row">
             <div class="col-md-6" data-aos="zoom-in-right">
-                    <img class="imgme" src="./images/Cassidy (1).jpg3.jpg" class="rounded" alt="me" >
+                    <img class="imgme shadow" src="./images/Cassidy (1).jpg3.jpg" class="rounded" alt="me" >
             </div>
             <div class="col-md-6 " data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
             data-aos-duration="500">
-                <h1 class="display-4">Hi there! I'm Cassidy Manuel</h1>
-                <h1 class="display-6">Aspiring Web developer</h1>
-                <p class="lead fw-bold">I am 19 years old and currently a student at Life Choices Coding Academy. I am respectful, dedicated and a team player. I always keep a positive mindset when I approach situations. I also always try to enjoy the little things in life. I have always been fascinated by coding ever since I realised that it was not as hard and bad as I thought it would be. I feel that coding is fun. Since then, I have developed an interest in coding.</p>
+                <h1 class="display-4 pb-2
+                ">Hi there! I'm Cassidy Manuel</h1>
+                <h2 class="display-6 pb-2">Aspiring Web developer</h2>
+                <p class="lead fw-bold pb-1">I am 19 years old and currently a student at Life Choices Coding Academy. I am respectful, dedicated and a team player. I always keep a positive mindset when I approach situations. I also always try to enjoy the little things in life. I have always been fascinated by coding ever since I realised that it was not as hard and bad as I thought it would be. I feel that coding is fun. Since then, I have developed an interest in coding.</p>
                 <p class="lead fw-bold">Birthday : 01-04-2003</p>
                 <p class="lead fw-bold">Phone : 063 833 8384</p>
                 <p class="lead fw-bold">Email : cassidymanuel.59@gmail.com</p>
                 <p class="lead fw-bold">Location : Cape Town</p>
                 <p class="lead fw-bold">Language : English</p>
-                <p class="lead fw-bold">Hobbies : Baking , Watching movies and Singing </p>
+                <p class="lead fw-bold pb-2">Hobbies : Baking , Watching movies and Singing </p>
                 <div class="row btn-group d-flex">
                     <div class="col" data-aos="flip-up">
                         <a href="https://github.com/cassidymanuel01" class="btn w-50">GitHub</a>
@@ -91,28 +93,32 @@
     </div>
 </section>
 <!-- work and education -->
-    <section id="workandeducation">
-    <div class="container pb-5 pt-5">
-        <div class="row d-flex justify-content-evenly">
+    <section id="workandeducation" class="vh-150">
+    <div class="container pt-5 mt-3 d-flex justify-content-center align-items-center flex-column h-100">
+        <div class="row">
             <h1 class="d-flex justify-content-center pb-4">My Resume</h1>
-            <div class="card col-md-5 ps-2 pt-3 pb-3" data-aos="fade-right">
-                <h1 class="display-5 d-flex justify-content-center pt-4 mt-2"> Education</h1>
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="card shadow-md ps-2 pt-3 pb-3">
+                <h1 class="display-5 d-flex justify-content-center pt-4 mt-2 pb-2"> Education</h1>
                 <i class="fa-solid fa-calendar pb-3 pt-2">  January 2016 - December 2021</i>
                 <p class="lead fw-bold">• I attended Mondale High, my subjects were Pure Maths, Life Science, Accounting, History, English, Afrikaans and Life Orientation.</p>
             </div>
-            <div class="card col-md-5 ps-2 pt-3 pb-3" data-aos="fade-right">
+        </div>
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="card shadow-md ps-2 pt-3 pb-3">
                 <h1 class="display-5 d-flex justify-content-center pt-4 mt-2 pb-2">Experince</h1>
                 <i class="fa-solid fa-calendar pb-3 pt-2">  March 2016 - present</i>
                 <p class="lead fw-bold">• I have done voluntary work at Old Age Homes based in Cape Town, participated in environmental clean ups and I am regularly involved in activities at my church.</p>
             </div>
         </div>
+        </div>
     </div>
 </section>
 <!-- skills -->
-<section id="skills">
-    <div class="container text-start pb-5 pt-4 ps-4 pe-4">
+<section id="skills" class="vh-150 d-flex justify-content-center align-items-center flex-column pb-5 pt-5 mb-5 ">
+    <div class="container text-start mt-3 pb-5 pt-5">
         <div class="row text-start border-2">
-            <h1 class="text-center pe-4 display-4 pb-3 pt-3">Technical Skills</h1>
+            <h1 class="text-center pb-3 pt-3">Technical Skills</h1>
             <div class="col-md-4 pb-4 border-2"data-aos="zoom-in"id="skills-container">
                 <h2 class="display-6">HTML</h2>
                 <div class="progress">
@@ -174,19 +180,29 @@
     </div>
 </section>
 <!-- projects -->
-    <section id="projects">
-    <div class="container ">
+    <section id="projects" class="vh-150 d-flex justify-content-center align-items-center flex-column pb-5 pt-5 mb-5 ">
+    <div class="container mt-3 pb-5 pt-5">
         <h1 class="mb-5 display-4 text-center">Projects</h1>
-            <div class="project-container"data-aos="zoom-in">
-                <img
-                data-bs-toggle="modal" data-bs-target="#exampleModal" src="./images/rainbow.png"
-                />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="./images/calculator.png" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal3"
-                src="./images/form.png" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal4" src="./images/website.png" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal5" src="./images/portfolio.png" />
-
+            <div class="project-container shadow-lg "data-aos="zoom-in">
+                <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                    <img
+                    data-bs-toggle="modal" data-bs-target="#exampleModal" src="./images/rainbow.png"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="./images/calculator.png" />
+                </div>
+            </div>
+                <div class="row">
+                <div class="col-md-6">
+                    <img data-bs-toggle="modal" data-bs-target="#exampleModal3"
+                    src="./images/form.png" />
+                </div>
+                <div class="col-md-6">
+                    <img data-bs-toggle="modal" data-bs-target="#exampleModal5" src="./images/portfolio.png" />
+                </div>
+            </div>
     </div>
 </section>
 <!-- Modal -->
@@ -221,15 +237,13 @@ aria-hidden="true">
           </div>
         </div>
         <div class="modal-footer">
-          <a href=""class="btn">Live</a>
-            <a href="https://github.com/cassidymanuel01/rainbow.git" class="btn">GitHub</a>
+          <a target="_blank" href="https://jade-puffpuff-433e9a.netlify.app/"class="btn">Live</a>
+            <a target="_blank" href="https://github.com/cassidymanuel01/rainbow.git" class="btn">GitHub</a>
         </div>
       </div>
     </div>
   </div>
-
   <!-- Modal 2 -->
-
   <div
   class="modal fade" 
   id="exampleModal2"
@@ -258,15 +272,13 @@ aria-hidden="true">
             </div>
           </div>
           <div class="modal-footer">
-            <a href=""class="btn">Live</a>
+            <a target="_blank" href="https://animated-toffee-fe3dfb.netlify.app/"class="btn">Live</a>
             <a href="https://github.com/cassidymanuel01/calculator-new.git" class="btn btn-primary ">GitHub</a>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Modal 3 -->
-
     <div
     class="modal fade"
     id="exampleModal3"
@@ -303,53 +315,13 @@ aria-hidden="true">
           </div>
         </div>
         <div class="modal-footer">
-            <a href=""class="btn">Live</a>
+            <a target="_blank" href="https://clever-taiyaki-29861b.netlify.app/"class="btn">Live</a>
           <a href="https://github.com/cassidymanuel01/navexample.git" class="btn btn-primary ">GitHub</a>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Modal 4 -->
-
-  <div
-    class="modal fade" 
-    id="exampleModal4"
-    tabindex="-1" 
-    aria-labelledby="exampleModalLabel" 
-    aria-hidden="true">
-        <div class="modal-dialog mw-100 p-5">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Group Webpage</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid"
-                        src="./images/website.png"
-                         />
-                      </div>
-                      <div class="col-md-6 text-start">
-                        <p class="para lead fw-bold">
-                            This a group Project that had to be done with the use of HTML and CSS only and I created the About Us page.
-                        </p>
-                      </div>
-                  </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-                <a href=""class="btn">Live</a>
-              <a href="https://github.com/Emivw/college1" class="btn btn-primary ">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <!-- Modal 5 -->
-
+    <!-- Modal 4-->
     <div
     class="modal fade"
     id="exampleModal5"
@@ -386,35 +358,136 @@ aria-hidden="true">
           </div>
         </div>
         <div class="modal-footer">
-            <a href=""class="btn">Live</a>
+            <a target="_blank" href="https://app.netlify.com/sites/jocular-longma-f0ecee"class="btn">Live</a>
             <a href="https://github.com/cassidymanuel01/portfolio.git" class="btn btn-primary ">GitHub</a>
         </div>
       </div>
     </div>
   </div>
-
 <!-- testimonials -->
-    <section class="bg-light" id="testimonials">
-    <div class="container">
+    <section class="vh-150 pt-5 pb-5" id="testimonials">
+    <div class="container d-flex justify-content-center align-items-center flex-column">
         <div class="row">
-
+            <h1 class="mb-5 display-4 text-center pt-5">Testimonials</h1>
+            <div class="col-md-1">
+                <img class="testi-img" src="./images/Emile (4).JPG" alt="Emile">
+            </div>
+                <div class="col-md-5 mt-5">
+                <div class="card shadow-lg">
+                <p class="p-3 fw-bold">
+                    " Cassidy is a light hearted, driven, and studious individual. In the time I've spent with her she has gone from zero to hero going from needing help all the Time to helping others, proud to see the progress, shes a great person to be around, a team player with a stellar attitude and can do spirit welcoming challenges to test herself. "
+                    <br>
+                    -Emile Van Wyk - Student
+            </div>
+        </div>
+            <div class="col-md-1">
+                <img class="testi-img" src="./images/joel2.jpg" alt="Joel">
+            </div>
+                <div class="col-md-5 mt-5">
+                <div class="card shadow-lg">
+                <p class="p-3 fw-bold">
+                    "Cassidy has a pleasant personality and ability to work in a team environment. She is a confident learner who has shown great improvement in HTML and CSS. I do not hesitate to recommend her."
+                    <br>
+                -Joel Mukanya - Coding Lecturer</p>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+                <img class="testi-img" src="./images/Marshalino (2).JPG" alt="Marshalino">
+            </div>
+                <div class="col-md-5 mt-5">
+                <div class="card shadow-lg">
+                <p class="p-3 fw-bold">
+                    "Cassidy always displays a presentable appearance with a welcoming smile. She has a kind and caring personality and is always willing to help others. Equiped with a determined mindset and work ethic she has grown into a young and exciting Jr Developer, ready for any challenge"
+                    <br>
+                    -Marshalino Jankowski - Student</p>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <img class="testi-img" src="./images/Monique (3).JPG" alt="Monique">
+        </div>
+            <div class="col-md-5 mt-5">
+            <div class="card shadow-lg">
+            <p class="p-3 fw-bold">
+                "Cassidy is a very determied individual and a fast learner."
+                <br>
+                - Monique Dampies - Student
+        </div>
+    </div>
+        </div>
         </div>
     </div>
 </section>
 <!-- contact -->
-    <section class="bg-white" id="contact">
-    <div class="container">
-        <div class="row">
-
+    <section class="vh-100 d-flex justify-content-center align-items-center flex-column" id="contact">
+    <div class="container d-flex justify-content-center align-items-center flex-column">
+        <h1 class="mb-5 display-4 text-center pt-5 mt-5">Get In Touch</h1>
+        <form class="w-100" action="https://formspree.io/f/xzboyrpq" method="post">
+            <div class="row text-start">
+            <div class="col-md-8">
+         <div class="row my-2">
+                <div class="col-8">
+                    <input id="name" type="text" name="name" placeholder="Your Name " class="form-control">
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-8">
+                    <input id="email" type="text" name="email" placeholder="Your Email " class="form-control">
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-8">
+                    <input id="phone" type="text" name="phone" placeholder="Your Phone" class="form-control">
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-8">
+                    <textarea name="message" type="text" id="message" placeholder="Write a Message" class="h-100 w-100">
+                    </textarea>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-8">
+                    <input type="submit" value="Submit"
+                    class="btn w-25 text-start text-center">
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="row my-2">
+                <h2>My Contact Details</h2>
+                <p class="lead fw-bold"> Email</p>
+                <p class="lead fw-bold">cassidymanuel@gmail.com</p>
+                <br>
+                <br>
+                <p class="lead fw-bold">Phone</p>
+                <p class="lead fw-bold">+27638338384</p>
+                <br>
+                <br>
+                <p class="lead fw-bold">Location</p>
+                <p class="lead fw-bold">Cape Town, SA</p>
+            </div>
         </div>
     </div>
+</div>
+</form>
 </section>
 <!-- footer -->
-    <section class="bg-light" id="footer">
-    <div class="container">
+    <section class="text-center" id="footer">
+        <p>Copyright &copy;2022
+        </p>
+        <p>
         <div class="row">
-
+            <div class="col-12 display-6">
+                <a href="mailto:cassidymanuel.59@gmail.com"><i class="fa-solid fa-envelope col-2"></i></a>
+                <a href="https://www.instagram.com/cassidymanuel_59/"><i class="fa-brands fa-instagram text-center col-2"></i></a>
+                <a href="https://www.facebook.com/cassidy.manuel.56"><i class="fa-brands fa-facebook col-2"></i></a>
+                <a href="https://github.com/cassidymanuel01"><i class="fa-brands fa-github text-center col-2"></i></a>
+            </div>
         </div>
+    </p>
     </div>
 </section>
 

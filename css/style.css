@@ -1,4 +1,4 @@
- 
+ /* Portfolio inspired by https://preview.colorlib.com/#rezume */
  @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;1,200&display=swap');
@@ -83,7 +83,6 @@
         rgba(250, 178, 178, 0.45),
         rgba(244, 217, 70, 0.45)
       ),;
-      
       overflow-x: hidden;
   }
   #about h1 {
@@ -91,10 +90,15 @@
     font-size: 3em;
     color: lightcoral;
   }
+  #about h2 {
+    font-family: "Satisfy", cursive;
+    font-size: 2em;
+    color: lightcoral;
+  }
 
   #about p {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 1.5em;
+    font-size: 1 em;
       color: black;
   }
 
@@ -103,11 +107,8 @@
     width: 100%;
     object-fit: cover;
     overflow-x: hidden;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    box-shadow: -2vw 15px 8px pink;
+    border-radius: 20px;
+    box-shadow: pink;
   }
 
   /* work and education */
@@ -138,11 +139,8 @@
       display: flex;
       justify-content: center;
       border-color: lightcoral ;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-right-radius: 20px;
-      border-top-left-radius: 20px;
-      box-shadow: -2vw 15px 8px pink;
+      border-radius: 20px;
+      box-shadow: pink;
       margin-bottom: 50px;
       margin-top: 50px;
       margin: 0;
@@ -223,8 +221,8 @@
 }
 
 .project-container img{
-    max-height: 500px;
-    max-width: 400px;
+    max-height: 100%;
+    max-width: 100%;
     flex-grow: 1;
     object-fit: cover;
     overflow-x: hidden;
@@ -249,9 +247,35 @@
 
   #testimonials h1 {
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 3em;
     color: lightcoral;
   }
+
+  #testimonials p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+  .testi-img{
+    width: 70px !important;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
+  }
+
+.shadow-lg{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border-color: lightcoral !important;
+    border-top-left-radius: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+}
+
 
   /* contact */
 
@@ -266,8 +290,19 @@
 
   #contact h1 {
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 3em;
     color: lightcoral;
+  }
+  #contact h2 {
+    font-family: "Satisfy", cursive;
+    font-size: 2em;
+    color: lightcoral;
+  }
+
+  #contact p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1 em;
+      color: black;
   }
 
   /* footer */
@@ -281,8 +316,16 @@
     overflow-x: hidden;
 }
 
-  #footer h1 {
+  #footer p {
     font-family: "Satisfy", cursive;
-    font-size: 4em;
+    font-size: 2em;
     color: lightcoral;
+  }
+
+  .fa-brands{
+      color: lightcoral;
+  }
+
+  .fa-solid{
+      color: lightcoral;
   }
