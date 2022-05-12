@@ -42,9 +42,10 @@
     align-items: center;
 }
 
-  #navbarr h1 {
-    font-family: "Satisfy", cursive;
-    font-size: 4em;
+  .nav-link {
+    
+    color: white;
+    font-size: 20px;
   }
 
   
@@ -59,7 +60,7 @@
   }
 
 #landing {
-    color:antiquewhite;
+    color: white;
     background: 
       /* top, transparent red, faked with gradient */ linear-gradient(
         rgba(250, 178, 178, 0.45),
