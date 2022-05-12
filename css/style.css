@@ -323,11 +323,19 @@
   }
 
   .fa-brands{
-      color: lightcoral;
+    color: lightcoral;
+      width: 70px !important;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
   }
 
   .fa-solid{
       color: lightcoral;
+      width: 70px !important;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
   }
 
  
