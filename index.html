@@ -117,7 +117,7 @@
 <!-- skills -->
 <section id="skills" class="vh-150 d-flex justify-content-center align-items-center flex-column pb-5 pt-5 mb-5 ">
     <div class="container text-start mt-3 pb-5 pt-5">
-        <div class="row text-start border-2">
+        <div class="row text-start border-2 pb-5">
             <h1 class="text-center pb-3 pt-3">Technical Skills</h1>
             <div class="col-md-4 pb-4 border-2"data-aos="zoom-in"id="skills-container">
                 <h2 class="display-6">HTML</h2>
@@ -373,8 +373,10 @@ aria-hidden="true">
             <div class="col-md-1">
                 <img class="testi-img" src="./images/Emile (4).JPG" alt="Emile">
             </div>
-                <div class="col-md-5 mt-5">
-                <div class="card shadow-lg">
+                <div class="col-md-5 mt-5 pb-3">
+                <div class="card shadow-lg" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <p class="p-3 fw-bold">
                     " Cassidy is a light hearted, driven, and studious individual. In the time I've spent with her she has gone from zero to hero going from needing help all the Time to helping others, proud to see the progress, shes a great person to be around, a team player with a stellar attitude and can do spirit welcoming challenges to test herself. "
                     <br>
@@ -384,8 +386,10 @@ aria-hidden="true">
             <div class="col-md-1">
                 <img class="testi-img" src="./images/joel2.jpg" alt="Joel">
             </div>
-                <div class="col-md-5 mt-5">
-                <div class="card shadow-lg">
+                <div class="col-md-5 mt-5 pb-3">
+                <div class="card shadow-lg" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <p class="p-3 fw-bold">
                     "Cassidy has a pleasant personality and ability to work in a team environment. She is a confident learner who has shown great improvement in HTML and CSS. I do not hesitate to recommend her."
                     <br>
@@ -397,8 +401,10 @@ aria-hidden="true">
             <div class="col-md-1">
                 <img class="testi-img" src="./images/Marshalino (2).JPG" alt="Marshalino">
             </div>
-                <div class="col-md-5 mt-5">
-                <div class="card shadow-lg">
+                <div class="col-md-5 mt-5 pb-3">
+                <div class="card shadow-lg" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <p class="p-3 fw-bold">
                     "Cassidy always displays a presentable appearance with a welcoming smile. She has a kind and caring personality and is always willing to help others. Equiped with a determined mindset and work ethic she has grown into a young and exciting Jr Developer, ready for any challenge"
                     <br>
@@ -408,8 +414,10 @@ aria-hidden="true">
         <div class="col-md-1">
             <img class="testi-img" src="./images/Monique (3).JPG" alt="Monique">
         </div>
-            <div class="col-md-5 mt-5">
-            <div class="card shadow-lg">
+            <div class="col-md-5 mt-5 pb-3">
+            <div class="card shadow-lg" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <p class="p-3 fw-bold">
                 "Cassidy is a very determied individual and a fast learner."
                 <br>
@@ -421,43 +429,43 @@ aria-hidden="true">
     </div>
 </section>
 <!-- contact -->
-    <section class="vh-100 d-flex justify-content-center align-items-center flex-column" id="contact">
+    <section class="vh-150 d-flex justify-content-center align-items-center flex-column" id="contact">
     <div class="container d-flex justify-content-center align-items-center flex-column">
         <h1 class="mb-5 display-4 text-center pt-5 mt-5">Get In Touch</h1>
         <form class="w-100" action="https://formspree.io/f/xzboyrpq" method="post">
             <div class="row text-start">
-            <div class="col-md-8">
+            <div class="col-md-9">
          <div class="row my-2">
-                <div class="col-8">
+            <h2 class="pb-3">Get In Touch</h2>
+                <div class="col-9">
                     <input id="name" type="text" name="name" placeholder="Your Name " class="form-control">
                 </div>
             </div>
             <div class="row my-2">
-                <div class="col-8">
+                <div class="col-9">
                     <input id="email" type="text" name="email" placeholder="Your Email " class="form-control">
                 </div>
             </div>
             <div class="row my-2">
-                <div class="col-8">
+                <div class="col-9">
                     <input id="phone" type="text" name="phone" placeholder="Your Phone" class="form-control">
                 </div>
             </div>
             <div class="row my-2">
-                <div class="col-8">
-                    <textarea name="message" type="text" id="message" placeholder="Write a Message" class="h-100 w-100">
-                    </textarea>
-                </div>
+                <div class="col-9 mb-4 form-floating text-muted">
+                    <textarea class="form-control" id="query" style="height: 140px;" placeholder="query"></textarea>
+                    <label for="query">Write A Message</label>
+                  </div>
             </div>
             <div class="row my-2">
-                <div class="col-8">
+                <div class="col-9">
                     <input type="submit" value="Submit"
-                    class="btn w-25 text-start text-center">
+                    class="btn w-auto text-start text-center rounded-pill">
                 </div>
             </div>
         </div>
-        
-        <div class="col-md-4">
-            <div class="row my-1">
+        <div class="col-md-3">
+            <div class="row my-2">
                 <h2>My Contact Details</h2>
                 <p class="lead fw-bold"> Email</p>
                 <p class="lead fw-bold">cassidymanuel@gmail.com</p>
@@ -477,15 +485,15 @@ aria-hidden="true">
 </section>
 <!-- footer -->
     <section class="text-center pb-4 " id="footer">
-        <p class="pb-4">Copyright &copy;2022
+        <p class="pb-4">Copyright &copy; 2022
         </p>
         <p>
         <div class="row">
             <div class="col-12 display-6">
-                <a href="mailto:cassidymanuel.59@gmail.com"><i class="fa-solid fa-envelope col-2"></i></a>
-                <a href="https://www.instagram.com/cassidymanuel_59/"><i class="fa-brands fa-instagram text-center col-2"></i></a>
-                <a href="https://www.facebook.com/cassidy.manuel.56"><i class="fa-brands fa-facebook col-2"></i></a>
-                <a href="https://github.com/cassidymanuel01"><i class="fa-brands fa-github text-center col-2"></i></a>
+                <a href="mailto:cassidymanuel.59@gmail.com"><i class="fa-solid fa-envelope col-2 border-2"></i></a>
+                <a href="https://www.instagram.com/cassidymanuel_59/"><i class="fa-brands fa-instagram text-center col-2 border-2"></i></a>
+                <a href="https://www.facebook.com/cassidy.manuel.56"><i class="fa-brands fa-facebook col-2 border-2"></i></a>
+                <a href="https://github.com/cassidymanuel01"><i class="fa-brands fa-github text-center col-2 border-2"></i></a>
             </div>
         </div>
     </p>
