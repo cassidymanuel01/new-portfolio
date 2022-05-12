@@ -264,11 +264,13 @@
     border-radius: 50% !important;
   }
 
-.shadow-lg{
+#testi-card{
     display: flex;
     justify-content: center;
     border-radius: 20px;
     border-color: lightcoral !important;
+    width: 500px;
+    height: 300px;
     border-top-left-radius: 0;
     margin-bottom: 50px;
     margin-top: 50px;
