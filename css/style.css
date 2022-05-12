@@ -322,7 +322,7 @@
     color: lightcoral;
   }
 
-  .fa-brands{
+  .fa-brands.fa-github{
     color: lightcoral;
       width: 70px !important;
     aspect-ratio: 1 !important;
@@ -330,7 +330,23 @@
     border-radius: 50% !important;
   }
 
-  .fa-solid{
+  .fa-brands.fa-instagram{
+    color: lightcoral;
+      width: 70px !important;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
+  }
+
+  .fa-brands.fa-facebook{
+    color: lightcoral;
+      width: 70px !important;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
+  }
+
+  .fa-solid.fa-envelope{
       color: lightcoral;
       width: 70px !important;
     aspect-ratio: 1 !important;
